@@ -2,8 +2,8 @@ const express = require('express');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const cors = require('cors');
-const { User } = require('./models/User'); 
-const { GameHistory } = require('./models/GameHistory'); 
+const User= require('./models/user')
+const  GameHistory  = require('./models/GameHistory'); 
 require('dotenv').config();
 
 const app = express();
